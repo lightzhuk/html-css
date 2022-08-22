@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: lightseagreen;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+input {
+  width: 50%;
+  height: 7%;
+  border: 1px solid black;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  border-radius: 25px;
+  background-color: transparent;
+  box-shadow: 10px 5px 5px black;
+}
+input::placeholder {
+  font-size: 1rem;
+  color: black;
+  padding-left: 50px;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: -49%;
+}
+.voice img {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: -250%;
+  padding-top: 2.5px;
+}
