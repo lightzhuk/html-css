@@ -7,7 +7,7 @@
 
 body
 {
-  background-image: url('file:///C:/Users/Maysternya/Desktop/html-css/image/bg.jpg');
+  background-image: url('https://github.com/lightzhuk/html-css/blob/dev2/image/bg.jpg?raw=true');
   background-size: cover;
   font-family: poppins;
 }
